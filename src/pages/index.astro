@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro'
+// import Card from '../components/Card.astro'
 
 ---
 
@@ -66,8 +66,8 @@ import Card from '../components/Card.astro'
                     <div class="col-1-of-2">
                         <div class="composition">
                             <img src="/santo.png" alt="Photo 1" class="composition__photo composition__photo--p1">
-                            <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
-                            <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
+                            <img src="/santo.png" alt="Photo 2" class="composition__photo composition__photo--p2">
+                            <img src="/santo.png" alt="Photo 3" class="composition__photo composition__photo--p3">
                         </div>
                     </div>
                 </div>
@@ -133,23 +133,24 @@ import Card from '../components/Card.astro'
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--1">Daily Rates</span>
+                                    <span class="card__heading-span card__heading-span--1">Weekly Rates</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>$40</li>
+                                        
                                         <li>Free Wifi</li>
-                                        <li>Near Bus Routes</li>
+                                        <li>Shared Room</li>
                                         <li>Washer & Dryer</li>
                                         <li>Street Parking</li>
+                                        <li>Near Bus Routes</li>
                                     </ul>
                                 </div>
                            </div>
                            <div class="card__side card__side--back card__side--back-1">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Daily</p>
-                                        <p class="card__price-value">$40</p>
+                                        <p class="card__price-only">Weekly</p>
+                                        <p class="card__price-value">$150</p>
                                     </div>
                                     <a href="tel:+702-610-3908" class="btn btn--white">Call Now</a>
                                 </div>
@@ -165,11 +166,12 @@ import Card from '../components/Card.astro'
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--2">Weekly Rates</span>
+                                    <span class="card__heading-span card__heading-span--2">Monthly Rates</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                        <li>$175</li>
+                                      
+                                        <li>Shared Room</li>
                                         <li>Free Wifi</li>
                                         <li>Near Bus Routes</li>
                                         <li>Washer & Dryer</li>
@@ -181,8 +183,8 @@ import Card from '../components/Card.astro'
                             <div class="card__side card__side--back card__side--back-2">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Prepaid</p>
-                                        <p class="card__price-value">$175</p>
+                                        <p class="card__price-only">Monthly</p>
+                                        <p class="card__price-value">$500</p>
                                     </div>
                                     <a href="tel:+702-610-3908" class="btn btn--white">Call Now</a>
                                 </div>
@@ -198,13 +200,14 @@ import Card from '../components/Card.astro'
                                     &nbsp;
                                 </div>
                                 <h4 class="card__heading">
-                                    <span class="card__heading-span card__heading-span--3">Monthly Rates</span>
+                                    <span class="card__heading-span card__heading-span--3">Private Rooms</span>
                                 </h4>
                                 <div class="card__details">
                                     <ul>
-                                      <li>$600 Prepaid Only</li>
+                                      
+                                      <li>Private Room</li>
+                                      <li>Shared Bathroom</li>
                                       <li>Free Wifi</li>
-                                      <li>Near Bus Routes</li>
                                       <li>Washer & Dryer</li>
                                       <li>Street Parking</li>
                                     </ul>
@@ -214,8 +217,8 @@ import Card from '../components/Card.astro'
                             <div class="card__side card__side--back card__side--back-3">
                                 <div class="card__cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Prepaid Only</p>
-                                        <p class="card__price-value">$600</p>
+                                        <p class="card__price-only">Private Rooms</p>
+                                        <p class="card__price-value">$700</p>
                                     </div>
                                     <a href="tel:+702-610-3908" class="btn btn--white">Call Now</a>
                                 </div>
@@ -1805,7 +1808,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#7ed56f, #28b485);
+  background-image: radial-gradient(#6fd2d5, #284db4);
   z-index: 1000;
   -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -1922,8 +1925,8 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/nat-4.jpg);
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(111, 210, 213, 0.8)), to(rgba(40, 73, 180, 0.8))), url("../img/2.png.jpeg");
+  background-image: linear-gradient(to right bottom, rgba(111, 184, 213, 0.8), rgba(40, 89, 180, 0.8)), url("../img/2.png.jpeg");
   background-size: cover;
   -webkit-transform: skewY(-7deg);
           transform: skewY(-7deg);
@@ -1952,14 +1955,14 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#7ed56f), to(#28b485));
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#6fb8d5), to(#2849b4));
+  background-image: linear-gradient(to right bottom, #6fced5, #2842b4); }
   @media only screen and (max-width: 56.25em) {
     .section-book {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../img/v.png.jpeg");
   background-size: 100%;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
